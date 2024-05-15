@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 body main section.article {
   width: 60%;
   display: flex;
@@ -40,10 +44,11 @@ body main section.article div.article-left div.user ul.categories {
   padding-left: 0;
 }
 body main section.article div.article-left div.user ul.categories li {
-  flex: 1 0 40px;
+  flex: 1 1 40px;
   border: 1px solid palegoldenrod;
   padding: 0.5rem 0;
   margin: 0rem 0.5rem;
+  align-items: center;
 }
 body main section.article div.article-left div.user ul.categories li a.category {
   text-decoration: none;
@@ -66,12 +71,11 @@ body main section.article div.article-left div.article-content {
 }
 body main section.article div.article-right {
   border: 2px solid rgb(252, 0, 227);
-  flex: 1 1 200px;
+  flex: 1 1 300px;
   display: flex;
   align-items: center;
   justify-content: start;
 }
 body main section.article div.article-right img.article-img {
   width: 100%;
-  height: 80%;
 }/*# sourceMappingURL=style.css.map */
